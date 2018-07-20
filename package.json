@@ -1,0 +1,23 @@
+{
+  "name": "restify_tutorial_part1",
+  "version": "1.0.0",
+  "description": "Restify tutorial part1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "restify_tutorial_part1"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "GiangCoffee",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.2.3",
+    "restify": "^7.2.1"
+  }
+}
