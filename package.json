@@ -18,6 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.2.3",
+    "mongoose-timestamp": "^0.6.0",
+    "q": "^1.5.1",
     "restify": "^7.2.1"
   }
 }

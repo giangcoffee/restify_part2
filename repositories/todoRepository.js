@@ -56,7 +56,7 @@
             if (error) {
               console.error(error);
               deferred.reject(
-                new errors.InvalidContentError(err.message)
+                new errors.InvalidContentError(error.message)
               );
             } else {
               deferred.resolve(todos);

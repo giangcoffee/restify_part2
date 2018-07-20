@@ -76,7 +76,7 @@
       UserRepository
         .findById(req.params.id)
         .then(function (user) {
-            res.send(user;
+            res.send(user);
             next();
         })
         .catch(function (error) {
